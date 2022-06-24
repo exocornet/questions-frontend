@@ -41,6 +41,7 @@
   "devDependencies": {
     "@bem-react/classname": "^1.5.12",
     "react-redux": "^8.0.2",
-    "redux": "^4.2.0"
+    "redux": "^4.2.0",
+    "redux-devtools": "^3.7.0"
   }
 }
