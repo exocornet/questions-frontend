@@ -46,6 +46,7 @@
     "commitizen": "^4.2.4",
     "cz-customizable": "^6.3.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "node-sass": "^7.0.1",
     "prettier": "^2.7.1",
     "react-redux": "^8.0.2",
@@ -67,5 +68,13 @@
     "cz-customizable": {
       "config": "./commitizen.js"
     }
-  }
+  },
+	"lint-staged": {
+		"*.scss": [
+			"stylelint --fix"
+		],
+		"*.{js,ts, jsx}": [
+			"prettier --write"
+		]
+	}
 }
