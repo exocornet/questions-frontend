@@ -69,12 +69,12 @@
       "config": "./commitizen.js"
     }
   },
-	"lint-staged": {
-		"*.scss": [
-			"stylelint --fix"
-		],
-		"*.{js,ts, jsx}": [
-			"prettier --write"
-		]
-	}
+  "lint-staged": {
+    "*.scss": [
+      "stylelint --fix"
+    ],
+    "*.{js,ts,jsx}": [
+      "prettier --write"
+    ]
+  }
 }

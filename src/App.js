@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 
-function App() {
+function App(fff) {
 	return (
 		<div className='App'>
 			<header className='App-header'>
